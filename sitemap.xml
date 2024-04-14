@@ -3,31 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://veganschnitzel.github.io/</loc>
+    <loc>https://veganschnitzel.github.io/website/</loc>
     <lastmod>2024-04-14T23:18:24+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://veganschnitzel.github.io/blog/</loc>
+    <loc>https://veganschnitzel.github.io/website/blog/</loc>
     <lastmod>2024-04-14T23:18:24+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://veganschnitzel.github.io/blog/mypost/</loc>
+    <loc>https://veganschnitzel.github.io/website/blog/mypost/</loc>
     <lastmod>2024-04-14T23:18:24+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://veganschnitzel.github.io/about-me/</loc>
+    <loc>https://veganschnitzel.github.io/website/about-me/</loc>
   </url>
   
   <url>
-    <loc>https://veganschnitzel.github.io/categories/</loc>
+    <loc>https://veganschnitzel.github.io/website/categories/</loc>
   </url>
   
   <url>
-    <loc>https://veganschnitzel.github.io/tags/</loc>
+    <loc>https://veganschnitzel.github.io/website/tags/</loc>
   </url>
   
 </urlset>
