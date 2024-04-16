@@ -9,7 +9,7 @@
   </url>
   
   <url>
-    <loc>https://vegan-schnitzel.github.io/blog/afd-th%C3%BCringen/</loc>
+    <loc>https://vegan-schnitzel.github.io/blog/afd-thueringen/</loc>
     <lastmod>2024-04-16T00:51:28+02:00</lastmod>
   </url>
   
@@ -24,15 +24,15 @@
   </url>
   
   <url>
-    <loc>https://vegan-schnitzel.github.io/about-me/</loc>
-  </url>
-  
-  <url>
     <loc>https://vegan-schnitzel.github.io/categories/</loc>
   </url>
   
   <url>
     <loc>https://vegan-schnitzel.github.io/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://vegan-schnitzel.github.io/todo/</loc>
   </url>
   
 </urlset>
