@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Random Vizzz</title>
+    <title>🥦 🥩</title>
     <link>https://vegan-schnitzel.github.io/</link>
-    <description>Recent content on Random Vizzz</description>
+    <description>Recent content on 🥦 🥩</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 26 Jun 2024 16:30:23 +0200</lastBuildDate><atom:link href="https://vegan-schnitzel.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Aug 2024 21:57:22 +0200</lastBuildDate><atom:link href="https://vegan-schnitzel.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IMDb Ratings</title>
+      <link>https://vegan-schnitzel.github.io/blog/imdb-ratings/</link>
+      <pubDate>Wed, 14 Aug 2024 21:57:22 +0200</pubDate>
+      
+      <guid>https://vegan-schnitzel.github.io/blog/imdb-ratings/</guid>
+      <description>Mein Bruder schwört auf BoJack Horseman &amp;amp; anscheinend lohnt es sich, dranzubleiben.</description>
+    </item>
+    
+    <item>
+      <title>TidyTuesday</title>
+      <link>https://vegan-schnitzel.github.io/blog/drwho/</link>
+      <pubDate>Wed, 14 Aug 2024 13:33:05 +0200</pubDate>
+      
+      <guid>https://vegan-schnitzel.github.io/blog/drwho/</guid>
+      <description>Throwback to one of the few TidyTuesday visualizations I created! The others can be found on GitHub.</description>
+    </item>
+    
     <item>
       <title>Ein Frühlingssemester in Bergen</title>
       <link>https://vegan-schnitzel.github.io/blog/rain-bergen/</link>
@@ -52,7 +70,7 @@ Eine Inszenierung als Opfer einer angeblichen Hetzkampagne der &amp;ldquo;etabli
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vegan-schnitzel.github.io/todo/</guid>
-      <description>weather station for bed/living room  using microcontroller &amp;amp; temperature/humidity/pressure sensor some sort of data logger and/or live-view   movie recommender system following crashcourse video almost every paint splatter is valid perl programm  learn perl and validate   cloud classification algorithm eigenes sticker pack erstellen OCR mit wizard zettel visualizations:  moodtracker screen time on phone heart rate from &amp;ldquo;smart&amp;rdquo; watch trinkbrunnen in berlin? visualize climate change  maybe tropical nights in Berlin?</description>
+      <description>weather station for bed/living room  using microcontroller &amp;amp; temperature/humidity/pressure sensor some sort of data logger and/or live-view   movie recommender system following crashcourse video write &amp;ldquo;useful&amp;rdquo; program for NFC chip almost every paint splatter is valid perl programm  learn perl and validate   cloud classification algorithm eigenes sticker pack erstellen OCR mit wizard zettel visualizations:  moodtracker screen time on phone heart rate from &amp;ldquo;smart&amp;rdquo; watch visualize climate change  maybe tropical nights in Berlin?</description>
     </item>
     
   </channel>
