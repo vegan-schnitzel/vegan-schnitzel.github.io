@@ -6,7 +6,17 @@
     <description>Recent content on 🥦 🥩</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 29 Sep 2024 12:54:53 +0200</lastBuildDate><atom:link href="https://vegan-schnitzel.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Oct 2024 16:37:50 +0200</lastBuildDate><atom:link href="https://vegan-schnitzel.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kartenprojektionen</title>
+      <link>https://vegan-schnitzel.github.io/blog/mercator/</link>
+      <pubDate>Wed, 23 Oct 2024 16:37:50 +0200</pubDate>
+      
+      <guid>https://vegan-schnitzel.github.io/blog/mercator/</guid>
+      <description>Die Mercator-Projektion wurde 1569 vom Kartographen Gerhard Mercator unter dem Titel Nova et Aucta Orbis Terrae Descriptio ad Usum Navigantium Emendata veröffentlicht.1 Wie der Name schon sagt, war diese Projektion für die Navigation auf See gedacht, da Wege gleichen Kurses (also Kompassnadel zeigt fortwährend in gleiche Richtung) als Geraden dargestellt werden.
+Allerdings wird bei Änderung der Projektion deutlich, dass diese sogenannten Loxodromen nicht die kürzeste Verbindung zweier Punkte sind. Reist ein Flugzeug beispielsweise von Berlin nach Chicago auf einer Orthodromen, also entlang eines Großkreises bzw.</description>
+    </item>
+    
     <item>
       <title>Mood Mosaic &#39;24</title>
       <link>https://vegan-schnitzel.github.io/blog/moodtracker/</link>
@@ -83,15 +93,6 @@ Eine Inszenierung als Opfer einer angeblichen Hetzkampagne der &amp;ldquo;etabli
       
       <guid>https://vegan-schnitzel.github.io/blog/mypost/</guid>
       <description>Hello, world!</description>
-    </item>
-    
-    <item>
-      <title>todo</title>
-      <link>https://vegan-schnitzel.github.io/todo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://vegan-schnitzel.github.io/todo/</guid>
-      <description>weather station for bed/living room  using microcontroller &amp;amp; temperature/humidity/pressure sensor some sort of data logger and/or live-view   movie recommender system following crashcourse video write &amp;ldquo;useful&amp;rdquo; program for NFC chip almost every paint splatter is valid perl programm  learn perl and validate   cloud classification algorithm eigenes sticker pack erstellen OCR mit wizard zettel visualizations:  moodtracker screen time on phone heart rate from &amp;ldquo;smart&amp;rdquo; watch visualize climate change  maybe tropical nights in Berlin?</description>
     </item>
     
   </channel>

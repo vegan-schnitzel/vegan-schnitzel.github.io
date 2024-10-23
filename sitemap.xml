@@ -4,13 +4,18 @@
   
   <url>
     <loc>https://vegan-schnitzel.github.io/</loc>
-    <lastmod>2024-09-29T12:54:53+02:00</lastmod>
+    <lastmod>2024-10-23T16:37:50+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://vegan-schnitzel.github.io/blog/</loc>
-    <lastmod>2024-09-29T12:54:53+02:00</lastmod>
+    <lastmod>2024-10-23T16:37:50+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vegan-schnitzel.github.io/blog/mercator/</loc>
+    <lastmod>2024-10-23T16:37:50+02:00</lastmod>
   </url>
   
   <url>
@@ -59,10 +64,6 @@
   
   <url>
     <loc>https://vegan-schnitzel.github.io/tags/</loc>
-  </url>
-  
-  <url>
-    <loc>https://vegan-schnitzel.github.io/todo/</loc>
   </url>
   
 </urlset>
