@@ -57,8 +57,6 @@ As outlined by Schöley &amp; Willekens (2017), the labelled patterns in the Lex
     --text-color: #444;
     --link-color: #3273dc;
     --visited-color: #8b6fcb;
-    --code-background-color: #f2f2f2;
-    --code-color: #222;
     --blockquote-color: #222;
   }
 
@@ -69,8 +67,6 @@ As outlined by Schöley &amp; Willekens (2017), the labelled patterns in the Lex
       --text-color: #ddd;
       --link-color: #8cc2dd;
       --visited-color: #8b6fcb;
-      --code-background-color: #000;
-      --code-color: #ddd;
       --blockquote-color: #ccc;
     }
   }
@@ -149,14 +145,12 @@ As outlined by Schöley &amp; Willekens (2017), the labelled patterns in the Lex
   code {
     font-family: monospace;
     padding: 2px;
-    background-color: var(--code-background-color);
-    color: var(--code-color);
     border-radius: 3px;
   }
 
   blockquote {
     border-left: 1px solid #999;
-    color: var(--code-color);
+    color: var(--blockquote-color);
     padding-left: 20px;
     font-style: italic;
   }
@@ -180,9 +174,6 @@ As outlined by Schöley &amp; Willekens (2017), the labelled patterns in the Lex
 
   .highlight,
   .code {
-    padding: 1px 15px;
-    background-color: var(--code-background-color);
-    color: var(--code-color);
     border-radius: 3px;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -209,6 +200,12 @@ As outlined by Schöley &amp; Willekens (2017), the labelled patterns in the Lex
 
 </style>
 <style>
+  :root {
+    --font-main: Helvetica, sans-serif;
+    --font-secondary: Helvetica, sans-serif;
+    --font-scale: 1em;
+}
+
   @media (prefers-color-scheme: dark) {
     :root {
       --background-color: #333;
@@ -226,7 +223,7 @@ As outlined by Schöley &amp; Willekens (2017), the labelled patterns in the Lex
 
 <a href="/blog/">blog</a>
 
-<a href="https://vegan-schnitzel.streamlit.app/">streamlit</a>
+<a href="https://vegan-schnitzel.streamlit.app/">[streamlit] forecast</a>
 
 </nav>
 </header>
@@ -252,6 +249,9 @@ As outlined by Schöley &amp; Willekens (2017), the labelled patterns in the Lex
 <p><img src="/lexis-diagram.png" alt="lexis-diagram"></p>
 
 </content>
+
+
+
 <p>
   
 </p>
@@ -260,7 +260,11 @@ As outlined by Schöley &amp; Willekens (2017), the labelled patterns in the Lex
   <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
 </footer>
 
-  
+  <style>
+  main {
+    text-align: justify;
+  }
+</style>
 </body>
 
 </html>

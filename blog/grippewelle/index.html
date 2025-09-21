@@ -53,8 +53,6 @@ Ein Boxplot liefert die sogenannte Fünf-Punkte-Zusammenfassung. Die Box entspri
     --text-color: #444;
     --link-color: #3273dc;
     --visited-color: #8b6fcb;
-    --code-background-color: #f2f2f2;
-    --code-color: #222;
     --blockquote-color: #222;
   }
 
@@ -65,8 +63,6 @@ Ein Boxplot liefert die sogenannte Fünf-Punkte-Zusammenfassung. Die Box entspri
       --text-color: #ddd;
       --link-color: #8cc2dd;
       --visited-color: #8b6fcb;
-      --code-background-color: #000;
-      --code-color: #ddd;
       --blockquote-color: #ccc;
     }
   }
@@ -145,14 +141,12 @@ Ein Boxplot liefert die sogenannte Fünf-Punkte-Zusammenfassung. Die Box entspri
   code {
     font-family: monospace;
     padding: 2px;
-    background-color: var(--code-background-color);
-    color: var(--code-color);
     border-radius: 3px;
   }
 
   blockquote {
     border-left: 1px solid #999;
-    color: var(--code-color);
+    color: var(--blockquote-color);
     padding-left: 20px;
     font-style: italic;
   }
@@ -176,9 +170,6 @@ Ein Boxplot liefert die sogenannte Fünf-Punkte-Zusammenfassung. Die Box entspri
 
   .highlight,
   .code {
-    padding: 1px 15px;
-    background-color: var(--code-background-color);
-    color: var(--code-color);
     border-radius: 3px;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -205,6 +196,12 @@ Ein Boxplot liefert die sogenannte Fünf-Punkte-Zusammenfassung. Die Box entspri
 
 </style>
 <style>
+  :root {
+    --font-main: Helvetica, sans-serif;
+    --font-secondary: Helvetica, sans-serif;
+    --font-scale: 1em;
+}
+
   @media (prefers-color-scheme: dark) {
     :root {
       --background-color: #333;
@@ -222,7 +219,7 @@ Ein Boxplot liefert die sogenannte Fünf-Punkte-Zusammenfassung. Die Box entspri
 
 <a href="/blog/">blog</a>
 
-<a href="https://vegan-schnitzel.streamlit.app/">streamlit</a>
+<a href="https://vegan-schnitzel.streamlit.app/">[streamlit] forecast</a>
 
 </nav>
 </header>
@@ -246,6 +243,9 @@ Die Whisker enden am letzten Datenpunkt, der sich noch im Bereich von 1,5×IQR b
 <p><em>Diese Abbildung wurde durch eine Übung des Moduls <a href="https://www.geo.fu-berlin.de/met/wexicom/Lehre/Naturrisiko/index.html">Interdisziplinäre Naturrisikoforschung</a> inspiriert.</em></p>
 
 </content>
+
+
+
 <p>
   
 </p>
@@ -254,7 +254,11 @@ Die Whisker enden am letzten Datenpunkt, der sich noch im Bereich von 1,5×IQR b
   <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
 </footer>
 
-  
+  <style>
+  main {
+    text-align: justify;
+  }
+</style>
 </body>
 
 </html>
