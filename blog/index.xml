@@ -4,162 +4,121 @@
     <title>blog on 🥦 🥩</title>
     <link>https://vegan-schnitzel.github.io/blog/</link>
     <description>Recent content in blog on 🥦 🥩</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 22 Sep 2025 17:00:18 +0200</lastBuildDate><atom:link href="https://vegan-schnitzel.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Nov 2025 01:17:02 +0100</lastBuildDate>
+    <atom:link href="https://vegan-schnitzel.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Binomial distribution</title>
+      <link>https://vegan-schnitzel.github.io/blog/binomial/</link>
+      <pubDate>Sun, 02 Nov 2025 01:17:02 +0100</pubDate>
+      <guid>https://vegan-schnitzel.github.io/blog/binomial/</guid>
+      <description>Ever wondered how likely you are to win a binary game a certain number of times? Now you can quickly explore the probabilities and see your chances at a glance!&#xA;After trying geopandas and streamlit to get interactive plots and web apps, I now gave bokeh a shot. However, to get any kind of calculations done, you&amp;rsquo;d need to run a bokeh server, which is not possible in my current static hugo &amp;amp; github pages setup.</description>
+    </item>
     <item>
       <title>Growth</title>
       <link>https://vegan-schnitzel.github.io/blog/growth/</link>
       <pubDate>Mon, 22 Sep 2025 17:00:18 +0200</pubDate>
-      
       <guid>https://vegan-schnitzel.github.io/blog/growth/</guid>
       <description>I sometimes find it hard to picture different growth rates, so here’s a quick comparison of the most common ones:</description>
     </item>
-    
     <item>
       <title>The diurnal cycle</title>
       <link>https://vegan-schnitzel.github.io/blog/diurnal-cycle/</link>
       <pubDate>Sun, 21 Sep 2025 17:44:33 +0200</pubDate>
-      
       <guid>https://vegan-schnitzel.github.io/blog/diurnal-cycle/</guid>
       <description>The diurnal cycle of certain climate variables is particularly interesting and warrants further visualization.</description>
     </item>
-    
     <item>
       <title>Eurovision Song Contest</title>
       <link>https://vegan-schnitzel.github.io/blog/esc/</link>
       <pubDate>Wed, 14 May 2025 21:05:11 +0200</pubDate>
-      
       <guid>https://vegan-schnitzel.github.io/blog/esc/</guid>
-      <description>Aus aktuellem Anlass eine interaktive Übersicht der durchschnittlichen Punktzahl, die das deutsche Televoting an die Finalist:innen vergibt. In dieser Tabelle sind Anmerkungen zu den sich im Laufe der Jahre verändernden Votingsystemen zusammengetragen &amp;ndash; kurzum gab es in den Jahren von 1997 bis 2008 ausschließlich das Televoting, seit 2016 werden die Ergebnisse des Televotings wieder veröffentlicht, allerdings gibt es nun daneben auch noch die nationalen Jurys.
-Außerdem nimmt zum Beispiel die Türkei seit 2013 auf unbestimmte Zeit nicht mehr am ESC teil und hat den Auftritt Conchita Wursts im darauffolgenden Jahr auch noch nicht verkraftet (😂).</description>
+      <description>Aus aktuellem Anlass eine interaktive Übersicht der durchschnittlichen Punktzahl, die das deutsche Televoting an die Finalist:innen vergibt. In dieser Tabelle sind Anmerkungen zu den sich im Laufe der Jahre verändernden Votingsystemen zusammengetragen &amp;ndash; kurzum gab es in den Jahren von 1997 bis 2008 ausschließlich das Televoting, seit 2016 werden die Ergebnisse des Televotings wieder veröffentlicht, allerdings gibt es nun daneben auch noch die nationalen Jurys.&#xA;Außerdem nimmt zum Beispiel die Türkei seit 2013 auf unbestimmte Zeit nicht mehr am ESC teil und hat den Auftritt Conchita Wursts im darauffolgenden Jahr auch noch nicht verkraftet (😂).</description>
     </item>
-    
     <item>
       <title>Happy New Year!</title>
       <link>https://vegan-schnitzel.github.io/blog/happy-new-year/</link>
       <pubDate>Wed, 22 Jan 2025 01:14:50 +0100</pubDate>
-      
       <guid>https://vegan-schnitzel.github.io/blog/happy-new-year/</guid>
-      <description>Weihnachten, die Zeit des Friedens,
-Zeit zu vergeben und zu verzeihen.
-Ich liebe dich und du liebst mich, jeder liebt jeden,
-lass uns zusammen fröhlich sein.
-Nichts ist heut unmöglich, auch ein Wunder kann geschehen.
-Jeder Traum geht in Erfüllung, wenn du es wirklich willst.
-Hey, was für ein frohes Fest!
-Keine Angst, es wird vorübergehen.
-Hey, was für ein frohes Fest!
-Nur Mut, wir werden es durchstehen.
-&amp;mdash; Die Roten Rosen // Frohes Fest</description>
+      <description>Weihnachten, die Zeit des Friedens,&#xA;Zeit zu vergeben und zu verzeihen.&#xA;Ich liebe dich und du liebst mich, jeder liebt jeden,&#xA;lass uns zusammen fröhlich sein.&#xA;Nichts ist heut unmöglich, auch ein Wunder kann geschehen.&#xA;Jeder Traum geht in Erfüllung, wenn du es wirklich willst.&#xA;Hey, was für ein frohes Fest!&#xA;Keine Angst, es wird vorübergehen.&#xA;Hey, was für ein frohes Fest!&#xA;Nur Mut, wir werden es durchstehen.&#xA;&amp;mdash; Die Roten Rosen // Frohes Fest</description>
     </item>
-    
     <item>
       <title>Berlin, Berlin</title>
       <link>https://vegan-schnitzel.github.io/blog/berlin/</link>
       <pubDate>Fri, 15 Nov 2024 00:43:56 +0100</pubDate>
-      
       <guid>https://vegan-schnitzel.github.io/blog/berlin/</guid>
-      <description>Berlin-Atlas  Impressionen </description>
+      <description>Berlin-Atlas Impressionen </description>
     </item>
-    
     <item>
       <title>Grippewelle</title>
       <link>https://vegan-schnitzel.github.io/blog/grippewelle/</link>
       <pubDate>Tue, 29 Oct 2024 18:43:42 +0100</pubDate>
-      
       <guid>https://vegan-schnitzel.github.io/blog/grippewelle/</guid>
-      <description>Das Robert-Koch-Institut veröffentlicht jeden Freitag neue Zahlen zu akuten Atemwegserkrankungen auf GitHub. Diese stammen aus dem Online-Portal GrippeWeb, wo registrierte Teilnehmer:innen wöchentlich gefragt werden, ob sie denn eine Atemwegserkrankung hatten.
-Ein Boxplot liefert die sogenannte Fünf-Punkte-Zusammenfassung. Die Box entspricht dem Interquartilsabstand (IQR) und enthält somit die mittleren 50 % der Daten; der Median wird als durchgehender Strich in der Box dargestellt. Die Whisker enden am letzten Datenpunkt, der sich noch im Bereich von 1,5×IQR befindet.</description>
+      <description>Das Robert-Koch-Institut veröffentlicht jeden Freitag neue Zahlen zu akuten Atemwegserkrankungen auf GitHub. Diese stammen aus dem Online-Portal GrippeWeb, wo registrierte Teilnehmer:innen wöchentlich gefragt werden, ob sie denn eine Atemwegserkrankung hatten.&#xA;Ein Boxplot liefert die sogenannte Fünf-Punkte-Zusammenfassung. Die Box entspricht dem Interquartilsabstand (IQR) und enthält somit die mittleren 50 % der Daten; der Median wird als durchgehender Strich in der Box dargestellt. Die Whisker enden am letzten Datenpunkt, der sich noch im Bereich von 1,5×IQR befindet.</description>
     </item>
-    
     <item>
       <title>Kartenprojektionen</title>
       <link>https://vegan-schnitzel.github.io/blog/mercator/</link>
       <pubDate>Wed, 23 Oct 2024 16:37:50 +0200</pubDate>
-      
       <guid>https://vegan-schnitzel.github.io/blog/mercator/</guid>
-      <description>Die Mercator-Projektion wurde 1569 vom Kartographen Gerhard Mercator unter dem Titel Nova et Aucta Orbis Terrae Descriptio ad Usum Navigantium Emendata veröffentlicht.1 Wie der Name schon sagt, war diese Projektion für die Navigation auf See gedacht, da Wege gleichen Kurses (also Kompassnadel zeigt fortwährend in die gleiche Richtung) als Geraden dargestellt werden.
-Allerdings wird bei Änderung der Projektion2 deutlich, dass diese sogenannten Loxodromen nicht die kürzeste Verbindung zweier Punkte auf einer Kugeloberfläche sind.</description>
+      <description>Die Mercator-Projektion wurde 1569 vom Kartographen Gerhard Mercator unter dem Titel Nova et Aucta Orbis Terrae Descriptio ad Usum Navigantium Emendata veröffentlicht.1 Wie der Name schon sagt, war diese Projektion für die Navigation auf See gedacht, da Wege gleichen Kurses (also Kompassnadel zeigt fortwährend in die gleiche Richtung) als Geraden dargestellt werden.&#xA;Allerdings wird bei Änderung der Projektion2 deutlich, dass diese sogenannten Loxodromen nicht die kürzeste Verbindung zweier Punkte auf einer Kugeloberfläche sind.</description>
     </item>
-    
     <item>
       <title>Mood Mosaic &#39;24</title>
       <link>https://vegan-schnitzel.github.io/blog/moodtracker/</link>
       <pubDate>Sun, 29 Sep 2024 12:54:53 +0200</pubDate>
-      
       <guid>https://vegan-schnitzel.github.io/blog/moodtracker/</guid>
       <description>I tracked my daily mood from the beginning of 2024 until mid-September of the same year, and it turns out that (non-surprisingly) my birthday month of July has been my happiest time so far. In July, on a scale from miserable = 1 to excellent = 5, my mood was 4.35, while my average monthly mood was 3.71!</description>
     </item>
-    
     <item>
       <title>Lexis Diagram</title>
       <link>https://vegan-schnitzel.github.io/blog/lexis-diagram/</link>
       <pubDate>Fri, 16 Aug 2024 19:19:25 +0200</pubDate>
-      
       <guid>https://vegan-schnitzel.github.io/blog/lexis-diagram/</guid>
-      <description>I first encountered Lexis diagrams in a Reddit post. These diagrams are frequently used in demographic studies to visualize the relationship between age, time period, and cohort (year of birth).
-As outlined by Schöley &amp;amp; Willekens (2017), the labelled patterns in the Lexis diagram below are predominantly linked to:
- The impact of the Civil War and World War I. The persistently higher risk of accidents among young men. Smoking-related deaths in men before women began to adopt similar smoking habits.</description>
+      <description>I first encountered Lexis diagrams in a Reddit post. These diagrams are frequently used in demographic studies to visualize the relationship between age, time period, and cohort (year of birth).&#xA;As outlined by Schöley &amp;amp; Willekens (2017), the labelled patterns in the Lexis diagram below are predominantly linked to:&#xA;The impact of the Civil War and World War I. The persistently higher risk of accidents among young men. Smoking-related deaths in men before women began to adopt similar smoking habits.</description>
     </item>
-    
     <item>
       <title>IMDb Ratings</title>
       <link>https://vegan-schnitzel.github.io/blog/imdb-ratings/</link>
       <pubDate>Wed, 14 Aug 2024 21:57:22 +0200</pubDate>
-      
       <guid>https://vegan-schnitzel.github.io/blog/imdb-ratings/</guid>
-      <description>Mein Bruder schwört auf BoJack Horseman &amp;amp; anscheinend lohnt es sich, dranzubleiben.
-Inspiriert durch whattowatchon.tv.</description>
+      <description>Mein Bruder schwört auf BoJack Horseman &amp;amp; anscheinend lohnt es sich, dranzubleiben.&#xA;Inspiriert durch whattowatchon.tv.</description>
     </item>
-    
     <item>
       <title>TidyTuesday</title>
       <link>https://vegan-schnitzel.github.io/blog/drwho/</link>
       <pubDate>Wed, 14 Aug 2024 13:33:05 +0200</pubDate>
-      
       <guid>https://vegan-schnitzel.github.io/blog/drwho/</guid>
       <description>Throwback to one of the few TidyTuesday visualizations I created! The others can be found on GitHub.</description>
     </item>
-    
     <item>
       <title>Ein Frühlingssemester in Bergen</title>
       <link>https://vegan-schnitzel.github.io/blog/rain-bergen/</link>
       <pubDate>Wed, 26 Jun 2024 16:30:23 +0200</pubDate>
-      
       <guid>https://vegan-schnitzel.github.io/blog/rain-bergen/</guid>
       <description>Während meines Erasmus-Aufenthalts in Bergen, Norwegen, durfte ich deutlich mehr Regen als Berliner:innen genießen.</description>
     </item>
-    
     <item>
       <title>Sonntagsfrage in Bayern</title>
       <link>https://vegan-schnitzel.github.io/blog/freie-waehler-bayern/</link>
       <pubDate>Thu, 09 May 2024 18:56:28 +0200</pubDate>
-      
       <guid>https://vegan-schnitzel.github.io/blog/freie-waehler-bayern/</guid>
-      <description>Im August 2023 erhebt die Süddeutsche Zeitung Vorwürfe gegen Hubert Aiwanger, dass dieser während seiner Schulzeit ein antisemitisches Flugblatt verfasst haben soll.1 Hubert hatte laut eigener Aussage einige Exemplare in seiner Schultasche und musste ein Referat als &amp;ldquo;Wiedergutmachung&amp;rdquo; halten, beharrte jedoch darauf, dass sein Bruder der Verfasser des Pamphlets sei. Sympathisch!
-Eine Inszenierung als Opfer einer angeblichen Hetzkampagne der &amp;ldquo;etablierten&amp;rdquo; Medien verhalf den Freien Wählern augenscheinlich zu einem verbesserten Abschneiden in der anschließenden Landtagswahl.</description>
+      <description>Im August 2023 erhebt die Süddeutsche Zeitung Vorwürfe gegen Hubert Aiwanger, dass dieser während seiner Schulzeit ein antisemitisches Flugblatt verfasst haben soll.1 Hubert hatte laut eigener Aussage einige Exemplare in seiner Schultasche und musste ein Referat als &amp;ldquo;Wiedergutmachung&amp;rdquo; halten, beharrte jedoch darauf, dass sein Bruder der Verfasser des Pamphlets sei. Sympathisch!&#xA;Eine Inszenierung als Opfer einer angeblichen Hetzkampagne der &amp;ldquo;etablierten&amp;rdquo; Medien verhalf den Freien Wählern augenscheinlich zu einem verbesserten Abschneiden in der anschließenden Landtagswahl.</description>
     </item>
-    
     <item>
       <title>Sonntagsfrage in Thüringen</title>
       <link>https://vegan-schnitzel.github.io/blog/afd-thueringen/</link>
       <pubDate>Tue, 16 Apr 2024 00:51:28 +0200</pubDate>
-      
       <guid>https://vegan-schnitzel.github.io/blog/afd-thueringen/</guid>
-      <description>Auch ein Faschist1 in der Rolle des Vorsitzenden kann den Höhenflug der Partei anscheinend nicht beeinträchtigen.
-  Laut Gerichtsbeschluss vom 26. September 2019 &amp;#x21a9;&amp;#xfe0e;
-   </description>
+      <description>Auch ein Faschist1 in der Rolle des Vorsitzenden kann den Höhenflug der Partei anscheinend nicht beeinträchtigen.&#xA;Laut Gerichtsbeschluss vom 26. September 2019&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
     </item>
-    
     <item>
       <title>My first post</title>
       <link>https://vegan-schnitzel.github.io/blog/mypost/</link>
       <pubDate>Sun, 14 Apr 2024 23:18:24 +0200</pubDate>
-      
       <guid>https://vegan-schnitzel.github.io/blog/mypost/</guid>
       <description>Hello, world!</description>
     </item>
-    
   </channel>
 </rss>
