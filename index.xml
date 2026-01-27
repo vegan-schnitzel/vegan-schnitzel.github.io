@@ -5,9 +5,24 @@
     <link>https://vegan-schnitzel.github.io/</link>
     <description>Recent content in home on 🥦 🥩</description>
     <generator>Hugo</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Sun, 02 Nov 2025 01:17:02 +0100</lastBuildDate>
+    <language>en-GB</language>
+    <copyright>© 2026, Robert W.</copyright>
+    <lastBuildDate>Tue, 27 Jan 2026 18:32:11 +0100</lastBuildDate>
     <atom:link href="https://vegan-schnitzel.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>about me</title>
+      <link>https://vegan-schnitzel.github.io/about-me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://vegan-schnitzel.github.io/about-me/</guid>
+      <description>I&amp;rsquo;m a graduate of meteorology!&#xA;Find my (short) list of publications here.</description>
+    </item>
+    <item>
+      <title>Bundestagswahl &#39;25</title>
+      <link>https://vegan-schnitzel.github.io/blog/wahl25/</link>
+      <pubDate>Tue, 27 Jan 2026 18:32:11 +0100</pubDate>
+      <guid>https://vegan-schnitzel.github.io/blog/wahl25/</guid>
+      <description>Im Rückblick auf die vergangene Bundestagswahl und die Altersgruppen fallen zwei Dinge auf:&#xA;Die Linke ist stärkste Kraft bei den Jungwähler:innen ✊, dafür leider die AfD bei den etwas Älteren. Junge Menschen sind stark politisiert und wählen eher die sogenannten &amp;ldquo;Ränder&amp;rdquo;, die traditionelle &amp;ldquo;Mitte&amp;rdquo; verschwindet. </description>
+    </item>
     <item>
       <title>Binomial distribution</title>
       <link>https://vegan-schnitzel.github.io/blog/binomial/</link>
@@ -118,7 +133,7 @@
       <link>https://vegan-schnitzel.github.io/blog/mypost/</link>
       <pubDate>Sun, 14 Apr 2024 23:18:24 +0200</pubDate>
       <guid>https://vegan-schnitzel.github.io/blog/mypost/</guid>
-      <description>Hello, world!</description>
+      <description>Hello, world &amp;amp; let&amp;rsquo;s go!</description>
     </item>
   </channel>
 </rss>
