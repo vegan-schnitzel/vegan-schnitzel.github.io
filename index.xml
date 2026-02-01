@@ -7,7 +7,7 @@
     <generator>Hugo</generator>
     <language>en-GB</language>
     <copyright>© 2026, Robert W.</copyright>
-    <lastBuildDate>Tue, 27 Jan 2026 18:32:11 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 01 Feb 2026 20:35:15 +0100</lastBuildDate>
     <atom:link href="https://vegan-schnitzel.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>about me</title>
@@ -15,6 +15,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://vegan-schnitzel.github.io/about-me/</guid>
       <description>I&amp;rsquo;m a graduate of meteorology!&#xA;Find my (short) list of publications here.</description>
+    </item>
+    <item>
+      <title>Sunshine</title>
+      <link>https://vegan-schnitzel.github.io/blog/sunshine/</link>
+      <pubDate>Sun, 01 Feb 2026 20:35:15 +0100</pubDate>
+      <guid>https://vegan-schnitzel.github.io/blog/sunshine/</guid>
+      <description>I was wondering where the sunniest spots of Germany are. Using sunshine duration data from 322 selected DWD weather stations (left figure) and filling the gaps with kriging, I created a continuous sunshine map for the whole country (center figure). It turns out the south and east are quite pleasant places if you enjoy the occasional sunbath!&#xA;Kriging is an advanced spatial interpolation method that does not just “smooth” values between stations.</description>
     </item>
     <item>
       <title>Bundestagswahl &#39;25</title>
@@ -91,7 +98,7 @@
       <link>https://vegan-schnitzel.github.io/blog/lexis-diagram/</link>
       <pubDate>Fri, 16 Aug 2024 19:19:25 +0200</pubDate>
       <guid>https://vegan-schnitzel.github.io/blog/lexis-diagram/</guid>
-      <description>I first encountered Lexis diagrams in a Reddit post. These diagrams are frequently used in demographic studies to visualize the relationship between age, time period, and cohort (year of birth).&#xA;As outlined by Schöley &amp;amp; Willekens (2017), the labelled patterns in the Lexis diagram below are predominantly linked to:&#xA;The impact of the Civil War and World War I. The persistently higher risk of accidents among young men. Smoking-related deaths in men before women began to adopt similar smoking habits.</description>
+      <description>I first encountered Lexis diagrams in a Reddit post. These diagrams are frequently used in demographic studies to visualize the relationship between age, time period, and cohort (year of birth).&#xA;As outlined by Schöley &amp;amp; Willekens (2017), the labelled patterns in the Lexis diagram below are predominantly linked to:&#xA;The pronounced impact of the Spanish Civil War (and before possibly of World War I). The persistently higher risk of accidents among young men.</description>
     </item>
     <item>
       <title>IMDb Ratings</title>
