@@ -5,6 +5,7 @@
   <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="https://vegan-schnitzel.github.io/images/favicon.png" />
 <title>Sunshine | 🥦 🥩</title>
 <meta name="title" content="Sunshine" />
 <meta name="description" content="I was wondering where the sunniest spots of Germany are. Using sunshine duration data from 322 selected DWD weather stations (left figure) and filling the gaps with kriging, I created a continuous sunshine map for the whole country (center figure). It turns out the south and east are quite pleasant places if you enjoy the occasional sunbath!
@@ -255,12 +256,26 @@ Kriging is an advanced spatial interpolation method that does not just “smooth
 
 <content>
   <p>I was wondering where the sunniest spots of Germany are. Using sunshine duration data from 322 selected DWD weather stations (<em>left figure</em>) and filling the gaps with <strong>kriging</strong>, I created a continuous sunshine map for the whole country (<em>center figure</em>). It turns out the south and east are quite pleasant places if you enjoy the occasional sunbath!</p>
-<p><img src="/sunshine.png" alt="sunshine"></p>
+<p><img src="/plots/sunshine.svg" alt="sunshine"></p>
 <p><a href="https://en.wikipedia.org/wiki/Kriging">Kriging</a> is an advanced spatial interpolation method that does not just “smooth” values between stations. It uses the spatial structure in the data (captured by the variogram) to weight nearby observations based on how similar points are expected to be at a given distance.</p>
 <p>An advantage of kriging is that it also provides a prediction uncertainty, the kriging variance \(\sigma^2\) (<em>right figure</em>). This does not measure the actual error, but shows where the interpolation is more or less reliable.</p>
 
 </content>
 
+<div style="font-size:0.8em;display:flex;gap:16px;justify-content:center;">
+  <p>
+    
+    <a href="https://vegan-schnitzel.github.io/blog/wahl25/">
+      &lt;&lt; Previous Post</a>
+        
+  </p>
+  <p>|</p>
+  <p>
+    
+    <strike>Next Post >></strike>
+    
+  </p>
+</div>
 
 
 <p>
