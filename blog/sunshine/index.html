@@ -239,7 +239,7 @@ Kriging is an advanced spatial interpolation method that does not just “smooth
 
 <a href="/blog/">gallery</a>
 
-<a href="https://vegan-schnitzel.streamlit.app/">[streamlit] forecast</a>
+<a href="https://vegan-schnitzel.streamlit.app/">[external] forecast</a>
 
 </nav>
 </header>
@@ -256,7 +256,7 @@ Kriging is an advanced spatial interpolation method that does not just “smooth
 
 <content>
   <p>I was wondering where the sunniest spots of Germany are. Using sunshine duration data from 322 selected DWD weather stations (<em>left figure</em>) and filling the gaps with <strong>kriging</strong>, I created a continuous sunshine map for the whole country (<em>center figure</em>). It turns out the south and east are quite pleasant places if you enjoy the occasional sunbath!</p>
-<p><img src="/plots/sunshine.svg" alt="sunshine"></p>
+<p><img src="/plots/sunshine.png" alt="sunshine"></p>
 <hr>
 <p><a href="https://en.wikipedia.org/wiki/Kriging">Kriging</a> is an advanced spatial interpolation method that does not just “smooth” values between stations. It uses the spatial structure in the data (captured by the variogram) to weight nearby observations based on how similar points are expected to be at a given distance.</p>
 <p>An advantage of kriging is that it also provides a prediction uncertainty, the kriging variance \(\sigma^2\) (<em>right figure</em>). This does not measure the actual error, but shows where the interpolation is more or less reliable.</p>
