@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-GB</language>
     <copyright>© 2026, Robert W.</copyright>
-    <lastBuildDate>Sun, 01 Feb 2026 20:35:15 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 26 Feb 2026 17:55:30 +0100</lastBuildDate>
     <atom:link href="https://vegan-schnitzel.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hitzefrei</title>
+      <link>https://vegan-schnitzel.github.io/blog/hitzefrei/</link>
+      <pubDate>Thu, 26 Feb 2026 17:55:30 +0100</pubDate>
+      <guid>https://vegan-schnitzel.github.io/blog/hitzefrei/</guid>
+      <description>I tried to create a time series plot for the maximum temperature measured in Berlin throughout the last 15 years:&#xA;Among other things, one can clearly see the data gap in the spring of 2025 during which the FU suffered an electricity blackout lasting several (!) weeks. Another way to visualize such a time series is to aggregate the data and plot the average yearly cycle of the distribution. A really nice example for such a plot can be found on the FU&amp;rsquo;s meteorological institute&amp;rsquo;s website.</description>
+    </item>
     <item>
       <title>Sunshine</title>
       <link>https://vegan-schnitzel.github.io/blog/sunshine/</link>

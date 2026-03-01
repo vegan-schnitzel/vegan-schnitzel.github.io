@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="https://vegan-schnitzel.github.io/images/favicon.png" />
+<title>Hitzefrei | 🥦 🥩</title>
+<meta name="title" content="Hitzefrei" />
+<meta name="description" content="I tried to create a time series plot for the maximum temperature measured in Berlin throughout the last 15 years:
+Among other things, one can clearly see the data gap in the spring of 2025 during which the FU suffered an electricity blackout lasting several (!) weeks. Another way to visualize such a time series is to aggregate the data and plot the average yearly cycle of the distribution. A really nice example for such a plot can be found on the FU&rsquo;s meteorological institute&rsquo;s website." />
+<meta name="keywords" content="" />
+
+
+<meta property="og:url" content="https://vegan-schnitzel.github.io/blog/hitzefrei/">
+  <meta property="og:site_name" content="🥦 🥩">
+  <meta property="og:title" content="Hitzefrei">
+  <meta property="og:description" content="I tried to create a time series plot for the maximum temperature measured in Berlin throughout the last 15 years:
+Among other things, one can clearly see the data gap in the spring of 2025 during which the FU suffered an electricity blackout lasting several (!) weeks. Another way to visualize such a time series is to aggregate the data and plot the average yearly cycle of the distribution. A really nice example for such a plot can be found on the FU’s meteorological institute’s website.">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2026-02-26T17:55:30+01:00">
+    <meta property="article:modified_time" content="2026-02-26T17:55:30+01:00">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Hitzefrei">
+  <meta name="twitter:description" content="I tried to create a time series plot for the maximum temperature measured in Berlin throughout the last 15 years:
+Among other things, one can clearly see the data gap in the spring of 2025 during which the FU suffered an electricity blackout lasting several (!) weeks. Another way to visualize such a time series is to aggregate the data and plot the average yearly cycle of the distribution. A really nice example for such a plot can be found on the FU’s meteorological institute’s website.">
+
+
+
+
+  <meta itemprop="name" content="Hitzefrei">
+  <meta itemprop="description" content="I tried to create a time series plot for the maximum temperature measured in Berlin throughout the last 15 years:
+Among other things, one can clearly see the data gap in the spring of 2025 during which the FU suffered an electricity blackout lasting several (!) weeks. Another way to visualize such a time series is to aggregate the data and plot the average yearly cycle of the distribution. A really nice example for such a plot can be found on the FU’s meteorological institute’s website.">
+  <meta itemprop="datePublished" content="2026-02-26T17:55:30+01:00">
+  <meta itemprop="dateModified" content="2026-02-26T17:55:30+01:00">
+  <meta itemprop="wordCount" content="205">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  :root {
+    --width: 720px;
+    --font-main: Verdana, sans-serif;
+    --font-secondary: Verdana, sans-serif;
+    --font-scale: 1em;
+    --background-color: #fff;
+    --heading-color: #222;
+    --text-color: #444;
+    --link-color: #3273dc;
+    --visited-color: #8b6fcb;
+    --blockquote-color: #222;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #01242e;
+      --heading-color: #eee;
+      --text-color: #ddd;
+      --link-color: #8cc2dd;
+      --visited-color: #8b6fcb;
+      --blockquote-color: #ccc;
+    }
+  }
+
+  body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+  }
+
+  a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav a {
+    margin-right: 8px;
+  }
+
+  strong,
+  b {
+    color: var(--heading-color);
+  }
+
+  button {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  time {
+    font-family: monospace;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  main {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px dashed;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    font-family: monospace;
+    padding: 2px;
+    border-radius: 3px;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: var(--blockquote-color);
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px 0;
+    text-align: center;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  .title h1 {
+    font-size: 1.5em;
+  }
+
+  .inline {
+    width: auto !important;
+  }
+
+  .highlight,
+  .code {
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: var(--visited-color);
+  }
+
+</style>
+<style>
+  :root {
+    --font-main: Inter, Helvetica, sans-serif;   
+    --font-secondary: Helvetica, sans-serif;   
+     
+}
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #333;
+    }
+  }
+</style>
+
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>🥦 🥩</h2>
+</a>
+<nav>
+<a href="/">home</a>
+
+<a href="/about-me/">about me</a>
+
+<a href="/blog/">gallery</a>
+
+<a href="https://vegan-schnitzel.streamlit.app/">[external] forecast</a>
+
+</nav>
+</header>
+  <main>
+
+<h1>Hitzefrei</h1>
+<p>
+  <i>
+    <time datetime='2026-02-26'>
+      26 Feb, 2026
+    </time>
+  </i>
+</p>
+
+<content>
+  <p>I tried to create a time series plot for the maximum temperature measured in Berlin throughout the last 15 years:</p>
+<p><img src="/plots/fu-tmax-timeseries.png" alt="fig"></p>
+<p>Among other things, one can clearly see the data gap in the spring of 2025 during which the FU suffered an electricity blackout lasting several (!) weeks. Another way to visualize such a time series is to aggregate the data and plot the average yearly cycle of the distribution. A really nice example for such a plot can be found on the FU&rsquo;s meteorological institute&rsquo;s <a href="https://www.geo.fu-berlin.de/met/service/Klimastatistiken/">website</a>.</p>
+<p>Late-July of 2022 marks one of the time periods with the highest recorded temperatures in Berlin. To understand just how severe a large city&rsquo;s buildings and sealed surfaces can amplify a heat wave, we look at different weather stations in Berlin:</p>
+<p><img src="/plots/fu-t2m-comparison.png" alt="fig"></p>
+<p>While the <a href="https://de.wikipedia.org/wiki/Wasserturm_auf_dem_Fichtenberg#Nutzung">weather tower</a> with its station inside the botanical garden measured &ldquo;only&rdquo; 36.9°C, Berlin&rsquo;s city centre (<em>Hackescher Markt</em>) reported up to 40.5°C &ndash; an increase of almost 4°C!
+On top, especially in the early morning of 21st July, we see that the inner city stays warm and cannot cool as much as more greeny areas like the botanical garden.</p>
+<p>(<em>Also note the differing measurement intervals of the raw displayed data, hence some curves look &ldquo;smoother&rdquo; than others.)</em></p>
+
+</content>
+
+<div style="font-size:0.8em;display:flex;gap:16px;justify-content:center;">
+  <p>
+    
+    <a href="https://vegan-schnitzel.github.io/blog/sunshine/">
+      &lt;&lt; Previous Post</a>
+        
+  </p>
+  <p>|</p>
+  <p>
+    
+    <strike>Next Post >></strike>
+    
+  </p>
+</div>
+
+
+<p>
+  
+</p>
+
+  </main>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
+
+  <style>
+  main {
+    text-align: left;
+  }
+</style>
+</body>
+
+</html>
