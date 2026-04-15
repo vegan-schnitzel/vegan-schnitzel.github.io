@@ -8,14 +8,22 @@
 <link rel="shortcut icon" href="https://vegan-schnitzel.github.io/images/favicon.png" />
 <title>Search &amp; sort | 🥦 🥩</title>
 <meta name="title" content="Search &amp; sort" />
-<meta name="description" content=" " />
+<meta name="description" content="Let&rsquo;s test the display of jupyter notebooks in my blog. I&rsquo;m programming several searching and sorting algorithms and compare their runtimes.
+import random import timeit from tqdm import tqdm import seaborn as sns import matplotlib.pyplot as plt sns.set_theme(style=&#34;ticks&#34;, rc={&#34;font.sans-serif&#34;: &#34;Inter&#34;}) random.seed(42)Searching algorithms # linear search | O(n) def linear_search(unordered_list, search_value): for index in range(len(unordered_list)): if unordered_list[index] == search_value: return True return False # binary search (only applies to ordered lists) | O(logn) def binary_search(ordered_list, search_value): first = 0 last = len(ordered_list) - 1 while first &lt;= last: middle = (first &#43; last)//2 if search_value == ordered_list[middle]: return True elif search_value &lt; ordered_list[middle]: last = middle - 1 else: first = middle &#43; 1Actually, I like the recursive implementation even more:" />
+<meta name="author" content="" />
 <meta name="keywords" content="" />
 
 
-<meta property="og:url" content="https://vegan-schnitzel.github.io/blog/search-sort/">
+
+
+
+
+  
+  <meta property="og:url" content="https://vegan-schnitzel.github.io/blog/search-sort/">
   <meta property="og:site_name" content="🥦 🥩">
   <meta property="og:title" content="Search &amp; sort">
-  <meta property="og:description" content=" ">
+  <meta property="og:description" content="Let’s test the display of jupyter notebooks in my blog. I’m programming several searching and sorting algorithms and compare their runtimes.
+import random import timeit from tqdm import tqdm import seaborn as sns import matplotlib.pyplot as plt sns.set_theme(style=&#34;ticks&#34;, rc={&#34;font.sans-serif&#34;: &#34;Inter&#34;}) random.seed(42)Searching algorithms # linear search | O(n) def linear_search(unordered_list, search_value): for index in range(len(unordered_list)): if unordered_list[index] == search_value: return True return False # binary search (only applies to ordered lists) | O(logn) def binary_search(ordered_list, search_value): first = 0 last = len(ordered_list) - 1 while first &lt;= last: middle = (first &#43; last)//2 if search_value == ordered_list[middle]: return True elif search_value &lt; ordered_list[middle]: last = middle - 1 else: first = middle &#43; 1Actually, I like the recursive implementation even more:">
   <meta property="og:locale" content="en_GB">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
@@ -23,191 +31,45 @@
     <meta property="article:modified_time" content="2026-03-17T21:05:27+01:00">
 
 
-
-
+  
+  
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Search &amp; sort">
-  <meta name="twitter:description" content=" ">
+  <meta name="twitter:description" content="Let’s test the display of jupyter notebooks in my blog. I’m programming several searching and sorting algorithms and compare their runtimes.
+import random import timeit from tqdm import tqdm import seaborn as sns import matplotlib.pyplot as plt sns.set_theme(style=&#34;ticks&#34;, rc={&#34;font.sans-serif&#34;: &#34;Inter&#34;}) random.seed(42)Searching algorithms # linear search | O(n) def linear_search(unordered_list, search_value): for index in range(len(unordered_list)): if unordered_list[index] == search_value: return True return False # binary search (only applies to ordered lists) | O(logn) def binary_search(ordered_list, search_value): first = 0 last = len(ordered_list) - 1 while first &lt;= last: middle = (first &#43; last)//2 if search_value == ordered_list[middle]: return True elif search_value &lt; ordered_list[middle]: last = middle - 1 else: first = middle &#43; 1Actually, I like the recursive implementation even more:">
 
 
-
-
+  
+  
   <meta itemprop="name" content="Search &amp; sort">
-  <meta itemprop="description" content=" ">
+  <meta itemprop="description" content="Let’s test the display of jupyter notebooks in my blog. I’m programming several searching and sorting algorithms and compare their runtimes.
+import random import timeit from tqdm import tqdm import seaborn as sns import matplotlib.pyplot as plt sns.set_theme(style=&#34;ticks&#34;, rc={&#34;font.sans-serif&#34;: &#34;Inter&#34;}) random.seed(42)Searching algorithms # linear search | O(n) def linear_search(unordered_list, search_value): for index in range(len(unordered_list)): if unordered_list[index] == search_value: return True return False # binary search (only applies to ordered lists) | O(logn) def binary_search(ordered_list, search_value): first = 0 last = len(ordered_list) - 1 while first &lt;= last: middle = (first &#43; last)//2 if search_value == ordered_list[middle]: return True elif search_value &lt; ordered_list[middle]: last = middle - 1 else: first = middle &#43; 1Actually, I like the recursive implementation even more:">
   <meta itemprop="datePublished" content="2026-03-17T21:05:27+01:00">
   <meta itemprop="dateModified" content="2026-03-17T21:05:27+01:00">
+  <meta itemprop="wordCount" content="667">
+
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
+  
+  <link href="/original.min.css" rel="stylesheet">
+
+  
+    
+    <link href="/syntax.min.css" rel="stylesheet">
+  
+
+  
+
   <style>
-  :root {
-    --width: 720px;
-    --font-main: Verdana, sans-serif;
-    --font-secondary: Verdana, sans-serif;
-    --font-scale: 1em;
-    --background-color: #fff;
-    --heading-color: #222;
-    --text-color: #444;
-    --link-color: #3273dc;
-    --visited-color: #8b6fcb;
-    --blockquote-color: #222;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --background-color: #01242e;
-      --heading-color: #eee;
-      --text-color: #ddd;
-      --link-color: #8cc2dd;
-      --visited-color: #8b6fcb;
-      --blockquote-color: #ccc;
-    }
-  }
-
   body {
-    font-family: var(--font-secondary);
-    font-size: var(--font-scale);
-    margin: auto;
-    padding: 20px;
-    max-width: var(--width);
-    text-align: left;
-    background-color: var(--background-color);
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    line-height: 1.5;
-    color: var(--text-color);
+    font-family: Helvetica, sans-serif;
   }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: var(--font-main);
-    color: var(--heading-color);
+  ul.blog-posts li {
+    margin-bottom: 3px;
   }
-
-  a {
-    color: var(--link-color);
-    cursor: pointer;
-    text-decoration: none;
-  }
-
-  a:hover {
-    text-decoration: underline;
-  }
-
-  nav a {
-    margin-right: 8px;
-  }
-
-  strong,
-  b {
-    color: var(--heading-color);
-  }
-
-  button {
-    margin: 0;
-    cursor: pointer;
-  }
-
   time {
     font-family: monospace;
-    font-style: normal;
-    font-size: 15px;
-  }
-
-  main {
-    line-height: 1.6;
-  }
-
-  table {
-    width: 100%;
-  }
-
-  hr {
-    border: 0;
-    border-top: 1px dashed;
-  }
-
-  img {
-    max-width: 100%;
-  }
-
-  code {
-    font-family: monospace;
-    padding: 2px;
-    border-radius: 3px;
-  }
-
-  blockquote {
-    border-left: 1px solid #999;
-    color: var(--blockquote-color);
-    padding-left: 20px;
-    font-style: italic;
-  }
-
-  footer {
-    padding: 25px 0;
-    text-align: center;
-  }
-
-  .title:hover {
-    text-decoration: none;
-  }
-
-  .title h1 {
-    font-size: 1.5em;
-  }
-
-  .inline {
-    width: auto !important;
-  }
-
-  .highlight,
-  .code {
-    border-radius: 3px;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    overflow-x: auto;
-  }
-
-  .highlight pre,
-  .code pre {
-    min-width: 100%;
-    width: max-content;
-  }
-
-   
-  ul.blog-posts {
-    list-style-type: none;
-    padding: unset;
-  }
-
-  ul.blog-posts li {
-    display: flex;
-  }
-
-  ul.blog-posts li span {
-    flex: 0 0 130px;
-  }
-
-  ul.blog-posts li a:visited {
-    color: var(--visited-color);
-  }
-
-</style>
-<style>
-  :root {
-    --font-main: Inter, Helvetica, sans-serif;   
-    --font-secondary: Helvetica, sans-serif;   
-     
-}
-
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --background-color: #333;
-    }
+    font-size: 14px;
   }
 </style>
 
@@ -215,69 +77,298 @@
 </head>
 
 <body>
-  <header><a href="/" class="title">
-  <h2>🥦 🥩</h2>
-</a>
+  <header><a class="skip-link" href="#main-content">Skip to main content</a>
+
+<a href="/" class="title"><h1>🥦 🥩</h1></a>
 <nav>
-<a href="/">home</a>
+  <a href="/">home</a>
 
-<a href="/about-me/">about me</a>
+  <a href="/about-me/">about me</a>
 
-<a href="/blog/">gallery</a>
+  <a href="/blog/">gallery</a>
 
-<a href="https://vegan-schnitzel.streamlit.app/">[external] forecast</a>
+  <a href="https://vegan-schnitzel.streamlit.app/">[external] forecast</a>
+
+<a href='https://vegan-schnitzel.github.io/index.xml'>rss</a>
+
+
+
+
+
+
 
 </nav>
 </header>
-  <main>
+  <main id="main-content">
 
 <h1>Search &amp; sort</h1>
-<p>
-  <i>
-    <time datetime='2026-03-17'>
-      17 Mar, 2026
-    </time>
-  </i>
+<p class="byline">
+  <time datetime='2026-03-17' pubdate>
+    17 Mar, 2026
+  </time>
+  
 </p>
 
 <content>
-  <iframe src="/notebooks/search-sort.html"
-    width="100%"
-    style="border:none;"
-    onload="this.style.height=this.contentDocument.documentElement.scrollHeight+'px'">
-</iframe>
+  <p>Let&rsquo;s test the display of jupyter notebooks in my blog. I&rsquo;m programming several searching and sorting algorithms and compare their runtimes.</p>
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">random</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">timeit</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">tqdm</span> <span class="kn">import</span> <span class="n">tqdm</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">sns</span><span class="o">.</span><span class="n">set_theme</span><span class="p">(</span><span class="n">style</span><span class="o">=</span><span class="s2">&#34;ticks&#34;</span><span class="p">,</span> <span class="n">rc</span><span class="o">=</span><span class="p">{</span><span class="s2">&#34;font.sans-serif&#34;</span><span class="p">:</span> <span class="s2">&#34;Inter&#34;</span><span class="p">})</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">42</span><span class="p">)</span></span></span></code></pre></div><h3 id="searching-algorithms">Searching algorithms</h3>
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># linear search | O(n)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">linear_search</span><span class="p">(</span><span class="n">unordered_list</span><span class="p">,</span> <span class="n">search_value</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="n">index</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">unordered_list</span><span class="p">)):</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="n">unordered_list</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="o">==</span> <span class="n">search_value</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="kc">True</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="kc">False</span></span></span></code></pre></div>
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># binary search (only applies to ordered lists) | O(logn)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">binary_search</span><span class="p">(</span><span class="n">ordered_list</span><span class="p">,</span> <span class="n">search_value</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="n">first</span> <span class="o">=</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">    <span class="n">last</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">ordered_list</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">while</span> <span class="n">first</span> <span class="o">&lt;=</span> <span class="n">last</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">middle</span> <span class="o">=</span> <span class="p">(</span><span class="n">first</span> <span class="o">+</span> <span class="n">last</span><span class="p">)</span><span class="o">//</span><span class="mi">2</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="n">search_value</span> <span class="o">==</span> <span class="n">ordered_list</span><span class="p">[</span><span class="n">middle</span><span class="p">]:</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="kc">True</span>
+</span></span><span class="line"><span class="cl">        <span class="k">elif</span> <span class="n">search_value</span> <span class="o">&lt;</span> <span class="n">ordered_list</span><span class="p">[</span><span class="n">middle</span><span class="p">]:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">last</span> <span class="o">=</span> <span class="n">middle</span> <span class="o">-</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">        <span class="k">else</span><span class="p">:</span> 
+</span></span><span class="line"><span class="cl">            <span class="n">first</span> <span class="o">=</span> <span class="n">middle</span> <span class="o">+</span> <span class="mi">1</span></span></span></code></pre></div><p>Actually, I like the recursive implementation even more:</p>
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">binary_search_recursive</span><span class="p">(</span><span class="n">ordered_list</span><span class="p">,</span> <span class="n">search_value</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">  <span class="c1"># define the base case</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">ordered_list</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="kc">False</span>
+</span></span><span class="line"><span class="cl">  <span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">middle</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">ordered_list</span><span class="p">)</span><span class="o">//</span><span class="mi">2</span>
+</span></span><span class="line"><span class="cl">    <span class="c1"># check whether the search value equals the value in the middle</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">search_value</span> <span class="o">==</span> <span class="n">ordered_list</span><span class="p">[</span><span class="n">middle</span><span class="p">]:</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="kc">True</span>
+</span></span><span class="line"><span class="cl">    <span class="k">elif</span> <span class="n">search_value</span> <span class="o">&lt;</span> <span class="n">ordered_list</span><span class="p">[</span><span class="n">middle</span><span class="p">]:</span>
+</span></span><span class="line"><span class="cl">        <span class="c1"># call recursively with the left half of the list</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">binary_search_recursive</span><span class="p">(</span><span class="n">ordered_list</span><span class="p">[:</span><span class="n">middle</span><span class="p">],</span> <span class="n">search_value</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="c1"># call recursively with the right half of the list</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">binary_search_recursive</span><span class="p">(</span><span class="n">ordered_list</span><span class="p">[</span><span class="n">middle</span><span class="o">+</span><span class="mi">1</span><span class="p">:],</span> <span class="n">search_value</span><span class="p">)</span></span></span></code></pre></div><h3 id="sorting-algorithms">Sorting algorithms</h3>
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># bubble sort | O(n²)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">bubble_sort</span><span class="p">(</span><span class="n">my_list</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="n">list_length</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">my_list</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">is_sorted</span> <span class="o">=</span> <span class="kc">False</span>
+</span></span><span class="line"><span class="cl">    <span class="k">while</span> <span class="ow">not</span> <span class="n">is_sorted</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">is_sorted</span> <span class="o">=</span> <span class="kc">True</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">list_length</span><span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="n">my_list</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">my_list</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]:</span>
+</span></span><span class="line"><span class="cl">                <span class="n">my_list</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">my_list</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">my_list</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">],</span> <span class="n">my_list</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">                <span class="n">is_sorted</span> <span class="o">=</span> <span class="kc">False</span>
+</span></span><span class="line"><span class="cl">        <span class="n">list_length</span> <span class="o">-=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">my_list</span></span></span></code></pre></div>
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># selection sort | O(n²)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">selection_sort</span><span class="p">(</span><span class="n">my_list</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="n">list_length</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">my_list</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">list_length</span><span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="n">lowest</span> <span class="o">=</span> <span class="n">my_list</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">        <span class="n">index</span> <span class="o">=</span> <span class="n">i</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">list_length</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="n">my_list</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">lowest</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="n">lowest</span> <span class="o">=</span> <span class="n">my_list</span><span class="p">[</span><span class="n">j</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">                <span class="n">index</span> <span class="o">=</span> <span class="n">j</span>
+</span></span><span class="line"><span class="cl">        <span class="n">my_list</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">my_list</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="o">=</span> <span class="n">my_list</span><span class="p">[</span><span class="n">index</span><span class="p">],</span> <span class="n">my_list</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">my_list</span></span></span></code></pre></div>
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># insertion sort | O(n²)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">insertion_sort</span><span class="p">(</span><span class="n">my_list</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">my_list</span><span class="p">)):</span>
+</span></span><span class="line"><span class="cl">        <span class="n">number_to_order</span> <span class="o">=</span> <span class="n">my_list</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">        <span class="n">j</span> <span class="o">=</span> <span class="n">i</span> <span class="o">-</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">        <span class="k">while</span> <span class="n">j</span> <span class="o">&gt;=</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">number_to_order</span> <span class="o">&lt;</span> <span class="n">my_list</span><span class="p">[</span><span class="n">j</span><span class="p">]:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">my_list</span><span class="p">[</span><span class="n">j</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">my_list</span><span class="p">[</span><span class="n">j</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">            <span class="n">j</span> <span class="o">-=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">        <span class="n">my_list</span><span class="p">[</span><span class="n">j</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">number_to_order</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">my_list</span></span></span></code></pre></div>
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># merge sort | O(n logn)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">merge_sort</span><span class="p">(</span><span class="n">my_list</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">my_list</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">mid</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">my_list</span><span class="p">)</span><span class="o">//</span><span class="mi">2</span>
+</span></span><span class="line"><span class="cl">        <span class="n">left_half</span> <span class="o">=</span> <span class="n">my_list</span><span class="p">[:</span><span class="n">mid</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">        <span class="n">right_half</span> <span class="o">=</span> <span class="n">my_list</span><span class="p">[</span><span class="n">mid</span><span class="p">:]</span>
+</span></span><span class="line"><span class="cl">        <span class="n">merge_sort</span><span class="p">(</span><span class="n">left_half</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">merge_sort</span><span class="p">(</span><span class="n">right_half</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">i</span> <span class="o">=</span> <span class="n">j</span> <span class="o">=</span> <span class="n">k</span> <span class="o">=</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">        <span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">left_half</span><span class="p">)</span> <span class="ow">and</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">right_half</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="n">left_half</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">right_half</span><span class="p">[</span><span class="n">j</span><span class="p">]:</span>
+</span></span><span class="line"><span class="cl">                <span class="n">my_list</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">left_half</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">                <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">            <span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="n">my_list</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">right_half</span><span class="p">[</span><span class="n">j</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">                <span class="n">j</span> <span class="o">+=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">            <span class="n">k</span> <span class="o">+=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">left_half</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">            <span class="n">my_list</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">left_half</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">            <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">            <span class="n">k</span> <span class="o">+=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="k">while</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">right_half</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">            <span class="n">my_list</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">right_half</span><span class="p">[</span><span class="n">j</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">            <span class="n">j</span> <span class="o">+=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">            <span class="n">k</span> <span class="o">+=</span> <span class="mi">1</span></span></span></code></pre></div>
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># quicksort (Hoare&#39;s partition) | O(n²)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">partition</span><span class="p">(</span><span class="n">my_list</span><span class="p">,</span> <span class="n">first_index</span><span class="p">,</span> <span class="n">last_index</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">  <span class="n">pivot</span> <span class="o">=</span> <span class="n">my_list</span><span class="p">[</span><span class="n">first_index</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">  <span class="n">left_pointer</span> <span class="o">=</span> <span class="n">first_index</span> <span class="o">+</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">  <span class="n">right_pointer</span> <span class="o">=</span> <span class="n">last_index</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">  <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="k">while</span> <span class="n">my_list</span><span class="p">[</span><span class="n">left_pointer</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">pivot</span> <span class="ow">and</span> <span class="n">left_pointer</span> <span class="o">&lt;</span> <span class="n">last_index</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">      <span class="n">left_pointer</span> <span class="o">+=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">    <span class="k">while</span> <span class="n">my_list</span><span class="p">[</span><span class="n">right_pointer</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">pivot</span> <span class="ow">and</span> <span class="n">right_pointer</span> <span class="o">&gt;=</span> <span class="n">first_index</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">      <span class="n">right_pointer</span> <span class="o">-=</span> <span class="mi">1</span> 
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">left_pointer</span> <span class="o">&gt;=</span> <span class="n">right_pointer</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="k">break</span>
+</span></span><span class="line"><span class="cl">    <span class="n">my_list</span><span class="p">[</span><span class="n">left_pointer</span><span class="p">],</span> <span class="n">my_list</span><span class="p">[</span><span class="n">right_pointer</span><span class="p">]</span> <span class="o">=</span> <span class="n">my_list</span><span class="p">[</span><span class="n">right_pointer</span><span class="p">],</span> <span class="n">my_list</span><span class="p">[</span><span class="n">left_pointer</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">  <span class="n">my_list</span><span class="p">[</span><span class="n">first_index</span><span class="p">],</span> <span class="n">my_list</span><span class="p">[</span><span class="n">right_pointer</span><span class="p">]</span> <span class="o">=</span> <span class="n">my_list</span><span class="p">[</span><span class="n">right_pointer</span><span class="p">],</span> <span class="n">my_list</span><span class="p">[</span><span class="n">first_index</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="n">right_pointer</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">quicksort</span><span class="p">(</span><span class="n">my_list</span><span class="p">,</span> <span class="n">first_index</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">last_index</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="n">last_index</span> <span class="o">==</span> <span class="kc">None</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">last_index</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">my_list</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="n">first_index</span> <span class="o">&lt;</span> <span class="n">last_index</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">partition_index</span> <span class="o">=</span> <span class="n">partition</span><span class="p">(</span><span class="n">my_list</span><span class="p">,</span> <span class="n">first_index</span><span class="p">,</span> <span class="n">last_index</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">quicksort</span><span class="p">(</span><span class="n">my_list</span><span class="p">,</span> <span class="n">first_index</span><span class="p">,</span> <span class="n">partition_index</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">quicksort</span><span class="p">(</span><span class="n">my_list</span><span class="p">,</span> <span class="n">partition_index</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">last_index</span><span class="p">)</span></span></span></code></pre></div><h3 id="compare-runtime">Compare runtime</h3>
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">evaluate_search_algorithm</span><span class="p">(</span><span class="n">algorithm</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="n">sizes</span> <span class="o">=</span> <span class="p">[</span><span class="mi">100</span><span class="p">,</span> <span class="mi">500</span><span class="p">,</span> <span class="mi">1000</span><span class="p">,</span> <span class="mi">2000</span><span class="p">,</span> <span class="mi">5000</span><span class="p">,</span> <span class="mi">10000</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="n">times</span> <span class="o">=</span> <span class="p">[]</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="n">size</span> <span class="ow">in</span> <span class="n">sizes</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="c1"># generate data</span>
+</span></span><span class="line"><span class="cl">        <span class="n">data</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="n">size</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">        <span class="n">times</span><span class="o">.</span><span class="n">append</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">            <span class="n">timeit</span><span class="o">.</span><span class="n">timeit</span><span class="p">(</span>  <span class="c1"># output in seconds</span>
+</span></span><span class="line"><span class="cl">                <span class="n">stmt</span><span class="o">=</span><span class="k">lambda</span><span class="p">:</span> <span class="n">algorithm</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">random</span><span class="o">.</span><span class="n">randrange</span><span class="p">(</span><span class="n">size</span><span class="p">)),</span>  <span class="c1"># always search for different integer</span>
+</span></span><span class="line"><span class="cl">                <span class="n">number</span><span class="o">=</span><span class="mi">1</span>
+</span></span><span class="line"><span class="cl">            <span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">times</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">evaluate_sort_algorithms</span><span class="p">(</span><span class="n">algorithm</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="n">sizes</span> <span class="o">=</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">75</span><span class="p">,</span> <span class="mi">100</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="n">times</span> <span class="o">=</span> <span class="p">[]</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="n">size</span> <span class="ow">in</span> <span class="n">sizes</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="c1"># generate data</span>
+</span></span><span class="line"><span class="cl">        <span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1000</span><span class="p">)</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">size</span><span class="p">)]</span>
+</span></span><span class="line"><span class="cl">        <span class="n">times</span><span class="o">.</span><span class="n">append</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">            <span class="n">timeit</span><span class="o">.</span><span class="n">timeit</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">                <span class="n">stmt</span><span class="o">=</span><span class="k">lambda</span><span class="p">:</span> <span class="n">algorithm</span><span class="p">(</span><span class="n">data</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">                <span class="n">number</span><span class="o">=</span><span class="mi">1</span>
+</span></span><span class="line"><span class="cl">            <span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">times</span></span></span></code></pre></div>
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">runtime_search</span><span class="p">,</span> <span class="n">runtime_sort</span> <span class="o">=</span> <span class="p">{},</span> <span class="p">{}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">algorithm</span> <span class="ow">in</span> <span class="p">[</span><span class="n">linear_search</span><span class="p">,</span> <span class="n">binary_search_recursive</span><span class="p">]:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">runtime_search</span><span class="p">[</span><span class="n">algorithm</span><span class="o">.</span><span class="vm">__name__</span><span class="p">]</span> <span class="o">=</span> <span class="n">evaluate_search_algorithm</span><span class="p">(</span><span class="n">algorithm</span><span class="p">)</span></span></span></code></pre></div>
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">for</span> <span class="n">algorithm</span> <span class="ow">in</span> <span class="p">[</span><span class="n">bubble_sort</span><span class="p">,</span> <span class="n">selection_sort</span><span class="p">,</span> <span class="n">insertion_sort</span><span class="p">,</span> <span class="n">merge_sort</span><span class="p">,</span> <span class="n">quicksort</span><span class="p">]:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">runtime_sort</span><span class="p">[</span><span class="n">algorithm</span><span class="o">.</span><span class="vm">__name__</span><span class="p">]</span> <span class="o">=</span> <span class="n">evaluate_sort_algorithms</span><span class="p">(</span><span class="n">algorithm</span><span class="p">)</span></span></span></code></pre></div>
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">fig</span><span class="p">,</span> <span class="n">axs</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">7</span><span class="p">,</span><span class="mi">4</span><span class="p">),</span> <span class="n">layout</span><span class="o">=</span><span class="s2">&#34;constrained&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">alg</span><span class="p">,</span> <span class="n">time</span> <span class="ow">in</span> <span class="n">runtime_search</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">    <span class="n">axs</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">([</span><span class="mi">100</span><span class="p">,</span> <span class="mi">500</span><span class="p">,</span> <span class="mi">1000</span><span class="p">,</span> <span class="mi">2000</span><span class="p">,</span> <span class="mi">5000</span><span class="p">,</span> <span class="mi">10000</span><span class="p">],</span> <span class="p">[</span><span class="n">t</span><span class="o">*</span><span class="mf">1e3</span> <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">time</span><span class="p">],</span> <span class="n">marker</span><span class="o">=</span><span class="s1">&#39;.&#39;</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="n">alg</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">alg</span><span class="p">,</span> <span class="n">time</span> <span class="ow">in</span> <span class="n">runtime_sort</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">    <span class="n">axs</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">([</span><span class="mi">5</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">75</span><span class="p">,</span> <span class="mi">100</span><span class="p">],</span> <span class="p">[</span><span class="n">t</span><span class="o">*</span><span class="mf">1e3</span> <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">time</span><span class="p">],</span> <span class="n">marker</span><span class="o">=</span><span class="s1">&#39;.&#39;</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="n">alg</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">titles</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&#34;search&#34;</span><span class="p">,</span> <span class="s2">&#34;sort&#34;</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">ax</span><span class="p">,</span> <span class="n">title</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">axs</span><span class="p">,</span> <span class="n">titles</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="n">ax</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s2">&#34;list length&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s2">&#34;runtime [ms]&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="n">title</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">ax</span><span class="o">.</span><span class="n">set_ylim</span><span class="p">(</span><span class="n">bottom</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">ax</span><span class="o">.</span><span class="n">set_xlim</span><span class="p">(</span><span class="n">left</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span></span></span></code></pre></div><p><img alt="png" src="/plots/datacamp_17_0.png"></p>
+<p>To display this jupyter notebook here, I used <a href="https://github.com/jupyter/nbconvert">nbconvert</a> to export it directly as markdown.</p>
 
 </content>
-
-<div style="font-size:0.8em;display:flex;gap:16px;justify-content:center;">
-  <p>
-    
-    <a href="https://vegan-schnitzel.github.io/blog/hitzefrei/">
-      &lt;&lt; Previous Post</a>
-        
-  </p>
-  <p>|</p>
-  <p>
-    
-    <strike>Next Post >></strike>
-    
-  </p>
-</div>
-
-
 <p>
   
 </p>
 
-  </main>
-  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
-</footer>
 
-  <style>
-  main {
-    text-align: left;
-  }
-</style>
+
+
+  </main>
+  <footer><small>
+  © 2026 Robert W. | Made with <a href="https://github.com/clente/hugo-bearcub">Bear Cub</a>
+</small></footer>
+
+    
 </body>
 
 </html>
