@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-GB</language>
     <copyright>© 2026 Robert W.</copyright>
-    <lastBuildDate>Tue, 17 Mar 2026 21:05:27 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 18:56:08 +0200</lastBuildDate>
     <atom:link href="https://robiwright.de/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>about me</title>
@@ -18,6 +18,21 @@
       <content:encoded><![CDATA[<p>I&rsquo;m a graduate of physics &amp; meteorology!</p>
 <img src="/images/lil-robi_face.jpg" width="200"/>
 <p>Find my (short) list of publications <a href="https://orcid.org/0009-0005-4752-990X">here</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>ICON-ART</title>
+      <link>https://robiwright.de/blog/stumeta/</link>
+      <pubDate>Mon, 18 May 2026 18:56:08 +0200</pubDate>
+      <guid>https://robiwright.de/blog/stumeta/</guid>
+      <description>At this year&amp;rsquo;s StuMeTa in Karlsruhe, I had the opportunity to attend an ICON-ART workshop. The ART-extension describes an atmospheric component of ICON to model aerosols and reactive gases. The DWD uses it, for example, to predict pollen exposure in Germany.&#xA;Using auto-icon to streamline the setup process, we, led by Dr. Rumeng Li, ran 1-day global ICON-ART simulations, obviously focussing on aerosol-related stuff, like dust concentration: The spike in dust concentration above the Saharian desert is clearly visible.</description>
+      <content:encoded><![CDATA[<p>At this year&rsquo;s StuMeTa in Karlsruhe, I had the opportunity to attend an <a href="https://www.icon-art.kit.edu/">ICON-ART</a> workshop. The ART-extension describes an atmospheric component of ICON to model aerosols and reactive gases. The <em>DWD</em> uses it, for example, to predict pollen exposure in Germany.</p>
+<p>Using <a href="https://auto-icon.gitlab-pages.dkrz.de/auto-icon/Introductory-guides/Shortest-guide-to-success.html"><code>auto-icon</code></a> to streamline the setup process, we, led by Dr. Rumeng Li, ran 1-day global ICON-ART simulations, obviously focussing on aerosol-related stuff, like dust concentration:
+<img alt="dusta-mixing-ratio" src="/plots/dusta_mixing-ratio.png">
+The spike in dust concentration above the Saharian desert is clearly visible.</p>
+<p>Later, we evaluated the model prediction by comparing it to MODIS satellite data:
+<img alt="aerosol-optical-depth" src="/plots/aod.png">
+However, since we just ran the model for a single day, its spin-up period wasn&rsquo;t over yet, so there&rsquo;re still some visible artefacts, such as the columns south of strong emission zones in North Africa.</p>
 ]]></content:encoded>
     </item>
     <item>
