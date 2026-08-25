@@ -21,7 +21,7 @@
 The spike in dust concentration above the Saharian desert is clearly visible.</p>
 <p>Later, we evaluated the model prediction by comparing it to MODIS satellite data:
 <img alt="aerosol-optical-depth" src="/plots/aod.png">
-However, since we just ran the model for a single day, its spin-up period wasn&rsquo;t over yet, so there&rsquo;re still some visible artefacts, such as the columns south of strong emission zones in North Africa.</p>
+However, since we just ran the model for a single day, its spin-up period wasn&rsquo;t over yet, so there are still some visible artefacts, such as the columns south of strong emission zones in North Africa.</p>
 ]]></content:encoded>
     </item>
     <item>
